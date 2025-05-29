@@ -1,0 +1,7 @@
+import React from 'react';
+
+const Sostenibilidad = () => {
+  return <h1>Sostenibilidad</h1>;
+};
+
+export default Sostenibilidad; 
