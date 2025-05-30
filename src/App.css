@@ -12,43 +12,80 @@
   .bg-nysa-black { background-color: #181A1B; }
 }
 
-/* Estilos personalizados para el carrusel */
+/* Ajustar altura del contenedor principal del carrusel */
+.carousel-container {
+  padding: 20px;
+  height: 70vh;
+}
+
 .image-gallery {
-  width: 100%;
-  height: 100vh;
+  height: 100% !important;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .image-gallery-content {
-  height: 100vh;
+  height: 100% !important;
 }
 
-.image-gallery-slide img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+.image-gallery-slide {
+  height: 100% !important;
 }
 
-.image-gallery-bullets {
-  bottom: 50px;
+/* Asegurar que las imágenes se muestren correctamente */
+.image-gallery-image {
+  height: 100% !important;
+  width: 100% !important;
 }
 
-.image-gallery-bullet {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 2px solid white;
+.image-gallery-image img {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.image-gallery-bullet.active {
-  background-color: white;
-}
-
+/* Mejorar la visibilidad de los controles de navegación */
 .image-gallery-left-nav,
 .image-gallery-right-nav {
-  color: white;
-  font-size: 3rem;
+  padding: 0 20px !important;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.8)) !important;
+  color: white !important;
+  font-size: 2.5rem !important;
+  z-index: 20 !important;
 }
 
 .image-gallery-left-nav:hover,
 .image-gallery-right-nav:hover {
-  color: #00AEEF;
+  color: #00AEEF !important;
+}
+
+/* Mejorar la visibilidad de los bullets */
+.image-gallery-bullets {
+  bottom: 20px !important;
+  z-index: 20 !important;
+}
+
+.image-gallery-bullet {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: 2px solid white !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 5px !important;
+}
+
+.image-gallery-bullet.active {
+  background-color: white !important;
+}
+
+/* Transición suave entre slides */
+.image-gallery-slide {
+  transition: all 0.5s ease !important;
+}
+
+/* Asegurar que los SVG estén visibles */
+.image-gallery-svg {
+  height: 40px !important;
+  width: 40px !important;
 }
 

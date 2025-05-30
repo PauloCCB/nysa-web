@@ -155,7 +155,7 @@ const NuestrosServicios = () => {
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
             </div>
-          </div>
+        </div>
 
         </div>
       </section>
@@ -173,8 +173,8 @@ const NuestrosServicios = () => {
           >
             Contactar Ahora
           </Link>
-        </div>
-      </section>
+      </div>
+    </section>
 
       <Footer />
     </>

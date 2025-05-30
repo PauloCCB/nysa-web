@@ -2,16 +2,23 @@ import React from 'react';
 import Footer from '../components/Footer';
 
 const Contactanos = () => {
-  const whatsappNumber = "51999999999"; // Número de WhatsApp de la empresa
-  const whatsappMessage = encodeURIComponent("Hola, me interesa conocer más sobre los servicios de Nysa Inversiones");
+  const whatsappNumber = "51956763018"; // Número de WhatsApp de la empresa
+  const whatsappMessage = encodeURIComponent("Hola, me interesa conocer más sobre los servicios de Inversiones Nysa");
 
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-64 bg-gray-900 flex items-center justify-center">
-        <div className="text-center text-white">
-          <h1 className="text-5xl font-bold mb-4">Contáctanos</h1>
-          <p className="text-xl">Estamos aquí para atender tus consultas y proyectos</p>
+      <section className="relative h-96 overflow-hidden">
+        <img 
+          src="/image1.jpg" 
+          alt="Contáctanos - Inversiones Nysa" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="text-center text-white">
+            <h1 className="text-5xl font-bold mb-4">Contáctanos</h1>
+            <p className="text-xl">Estamos aquí para atender tus consultas y proyectos</p>
+          </div>
         </div>
       </section>
 
@@ -24,7 +31,7 @@ const Contactanos = () => {
             <div className="space-y-6">
               <img 
                 src="/image1.jpg" 
-                alt="Oficinas Nysa Inversiones" 
+                alt="Oficinas Inversiones Nysa" 
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
               <div className="bg-blue-50 p-6 rounded-lg">
@@ -50,7 +57,7 @@ const Contactanos = () => {
             {/* Right Side - Office Information */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-8">Nuestras Oficinas</h2>
+                <h2 className="text-4xl font-bold text-gray-900 mb-8">Nuestra Oficina</h2>
               </div>
 
               {/* Peru Office */}
@@ -64,19 +71,21 @@ const Contactanos = () => {
                   </div>
                   <div className="text-right">
                     <p className="text-sm text-gray-600 font-semibold">TELÉFONO</p>
-                    <p className="text-lg font-bold text-blue-600">(511) 208-0230</p>
+                    <p className="text-lg font-bold text-blue-600">956 763 018</p>
                   </div>
                 </div>
                 <div className="space-y-2">
                   <p className="text-gray-700">
                     <span className="font-semibold">Dirección:</span><br />
-                    Av. Santo Toribio 143,<br />
-                    Oficina 401, San Isidro<br />
-                    Lima
+                    Ancash, Huari<br />
+                    Perú
+                  </p>
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Email:</span><br />
+                    Inversionesnysa@hotmail.com
                   </p>
                 </div>
               </div>
-
 
             </div>
           </div>
@@ -96,8 +105,7 @@ const Contactanos = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-700">contacto@nysainversiones.com</p>
-              <p className="text-gray-700">info@nysainversiones.com</p>
+              <p className="text-gray-700">Inversionesnysa@hotmail.com</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -107,8 +115,7 @@ const Contactanos = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Teléfono</h3>
-              <p className="text-gray-700">(511) 208-0230</p>
-              <p className="text-gray-700">+51 999 999 999</p>
+              <p className="text-gray-700">956 763 018</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -118,8 +125,8 @@ const Contactanos = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Visítanos</h3>
-              <p className="text-gray-700">Av. Santo Toribio 143</p>
-              <p className="text-gray-700">San Isidro, Lima</p>
+              <p className="text-gray-700">Ancash, Huari</p>
+              <p className="text-gray-700">Perú</p>
             </div>
             
           </div>

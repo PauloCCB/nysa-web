@@ -13,26 +13,26 @@ const Nosotros = () => {
             <div>
               <h2 className="text-3xl font-bold text-blue-600 mb-4">Quienes Somos</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Nysa Inversiones fue fundada en 1986 y ha efectuado, a lo largo de los últimos 38 años, una mejora 
+                Inversiones Nysa fue fundada en 1986 y ha efectuado, a lo largo de los últimos 38 años, una mejora 
                 continua para lograr ser lo que es hoy en día: una organización empresarial de referencia, reconocida en 
-                las áreas de Ingeniería y Construcción, y Medio ambiente y Servicios.
+                las áreas de alquiler de maquinaria pesada, estructura metálica y carpintería especializada.
               </p>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Trabaja con un equipo de profesionales reconocidos por su talento, experiencia y un profundo 
-                conocimiento del mercado peruano. Las obras MEP llevan la firma de su compromiso, con la calidad y 
-                cumplimiento de todos los estándares de seguridad y calidad que sus clientes exigen. A la experiencia se 
+                conocimiento del mercado peruano. Nuestros servicios llevan la firma de nuestro compromiso, con la calidad y 
+                cumplimiento de todos los estándares de seguridad y calidad que nuestros clientes exigen. A la experiencia se 
                 suman los elevados estándares internos, el respeto por el medio ambiente y el buen relacionamiento con 
                 las comunidades.
               </p>
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
                 <p className="text-blue-800 font-semibold text-lg italic">
-                  "MEP está entre las principales constructoras del Perú, lo que demuestra su 
-                  capacidad de fusionar con éxito los años de experiencia global del Grupo con 
-                  un claro conocimiento del mercado nacional."
+                  "Inversiones Nysa está comprometida con la excelencia en cada proyecto, 
+                  demostrando nuestra capacidad de ofrecer soluciones integrales de calidad 
+                  con un claro conocimiento del mercado nacional."
                 </p>
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Con cerca de 3,000 trabajadores, Nysa Inversiones, se posiciona como una empresa de referencia y 
+                Con nuestro equipo de trabajadores especializados, Inversiones Nysa se posiciona como una empresa de referencia y 
                 eficiencia, logrando optimizar proyectos con constante innovación y capacidad tecnológica.
               </p>
             </div>
@@ -56,7 +56,7 @@ const Nosotros = () => {
             <div>
               <h2 className="text-3xl font-bold text-blue-600 mb-4">Historia</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Desde nuestros inicios en 1986, Nysa Inversiones ha sido pionera en el sector de alquiler de 
+                Desde nuestros inicios en 1986, Inversiones Nysa ha sido pionera en el sector de alquiler de 
                 maquinaria pesada y servicios especializados en el Perú.
               </p>
               
@@ -207,16 +207,15 @@ const Nosotros = () => {
           <div className="space-y-8">
             <h2 className="text-3xl font-bold text-blue-600 mb-4">Nuestra gente</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              En Nysa Inversiones el trabajo se basa en el talento los profesionales altamente especializados y 
-              valorados en el medio por su capacidad integral de gestión en todos los servicios que ofrece.
+              En Inversiones Nysa el trabajo se basa en el talento de profesionales altamente especializados y 
+              valorados en el medio por su capacidad integral de gestión en todos los servicios que ofrecemos.
             </p>
 
             <div className="bg-blue-50 p-6 rounded-lg mb-8">
               <p className="text-blue-800 font-semibold text-lg italic">
-                "Ser parte de un Grupo internacional como Nysa-Engil, con más de 50,000 
-                trabajadores en 20 países, permite globalizar conocimiento y promover un 
-                clima favorable al aprendizaje, innovación, calidad y mejora continua en el 
-                proceso de desempeño."
+                "Formar parte de Inversiones Nysa significa ser parte de un equipo comprometido 
+                con la excelencia, donde promovemos un clima favorable al aprendizaje, 
+                innovación, calidad y mejora continua en el proceso de desempeño."
               </p>
             </div>
 
@@ -224,7 +223,7 @@ const Nosotros = () => {
               <div>
                 <img 
                   src="/imagen-nosotros1.jpg" 
-                  alt="Equipo de trabajo de Nysa Inversiones" 
+                  alt="Equipo de trabajo de Inversiones Nysa" 
                   className="w-full h-64 object-cover rounded-lg shadow-lg"
                 />
               </div>
@@ -232,7 +231,7 @@ const Nosotros = () => {
               <div className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
                   El apoyo constante a la profesionalización, capacitación y el <em>know-how</em> 
-                  corporativo son factores determinante para pertenecer a la familia MEP.
+                  corporativo son factores determinantes para pertenecer a la familia de Inversiones Nysa.
                 </p>
                 
                 <div className="bg-orange-100 p-6 rounded-lg">
@@ -255,7 +254,7 @@ const Nosotros = () => {
               </video>
               <div className="p-4 bg-gray-800">
                 <p className="text-white text-center">
-                  Video Institucional de Nysa Inversiones
+                  Video Institucional de Inversiones Nysa
                 </p>
               </div>
             </div>
@@ -298,7 +297,7 @@ const Nosotros = () => {
             {/* Left Sidebar Navigation */}
             <div className="lg:col-span-1">
               <nav className="bg-white rounded-lg shadow-lg p-6 sticky top-24">
-                <h3 className="text-lg font-bold text-blue-600 mb-4">Nysa Inversiones</h3>
+                <h3 className="text-lg font-bold text-blue-600 mb-4">Inversiones Nysa</h3>
                 
                 {/* Nysa Inversiones Submenu */}
                 <div className="space-y-2 mb-6">
