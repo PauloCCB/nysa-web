@@ -10,6 +10,9 @@ import MedioAmbiente from './pages/Sostenibilidad/MedioAmbiente';
 import Seguridad from './pages/Sostenibilidad/Seguridad';
 import CompromisoComunidades from './pages/Sostenibilidad/CompromisoComunidades';
 import SIG from './pages/Sostenibilidad/SIG';
+import AlquilerMaquinariaPesada from './pages/Servicios/AlquilerMaquinariaPesada';
+import EstructuraMetalica from './pages/Servicios/EstructuraMetalica';
+import Carpinteria from './pages/Servicios/Carpinteria';
 
 import './App.css'
 
@@ -30,6 +33,9 @@ function App() {
             <Route path="sig" element={<SIG />} />
           </Route>
           <Route path="/servicios" element={<NuestrosServicios />} />
+          <Route path="/servicios/alquiler-maquinaria-pesada" element={<AlquilerMaquinariaPesada />} />
+          <Route path="/servicios/estructura-metalica" element={<EstructuraMetalica />} />
+          <Route path="/servicios/carpinteria" element={<Carpinteria />} />
           <Route path="/contactanos" element={<Contactanos />} />
         </Routes>
       </BrowserRouter>
