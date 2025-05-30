@@ -1,4 +1,3 @@
-import React from "react";
 import useIntersection from "../hooks/useIntersection";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";

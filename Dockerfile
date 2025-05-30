@@ -16,7 +16,7 @@ RUN \
 COPY . .
 
 # Build de producción
-RUN npm run build --force
+RUN npm run build 
 
 # Etapa 2: Servir con Nginx
 FROM nginx:1.25-alpine
