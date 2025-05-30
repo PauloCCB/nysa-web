@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ThemeProvider from './theme/ThemeProvider';
 import Navbar from './components/Navbar';
 import Inicio from './pages/Inicio';
 import Nosotros from './pages/Nosotros';
@@ -8,6 +9,7 @@ import Contactanos from './pages/Contactanos';
 import MedioAmbiente from './pages/Sostenibilidad/MedioAmbiente';
 import Seguridad from './pages/Sostenibilidad/Seguridad';
 import CompromisoComunidades from './pages/Sostenibilidad/CompromisoComunidades';
+import SIG from './pages/Sostenibilidad/SIG';
 
 import './App.css'
 
@@ -15,20 +17,23 @@ function App() {
   
 
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/sostenibilidad" element={<Sostenibilidad />}>
-          <Route path="medio-ambiente" element={<MedioAmbiente />} />
-          <Route path="seguridad" element={<Seguridad />} />
-          <Route path="compromiso-comunidades" element={<CompromisoComunidades />} />
-        </Route>
-        <Route path="/servicios" element={<NuestrosServicios />} />
-        <Route path="/contactanos" element={<Contactanos />} />
-      </Routes>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/sostenibilidad" element={<Sostenibilidad />}>
+            <Route path="medio-ambiente" element={<MedioAmbiente />} />
+            <Route path="seguridad" element={<Seguridad />} />
+            <Route path="compromiso-comunidades" element={<CompromisoComunidades />} />
+            <Route path="sig" element={<SIG />} />
+          </Route>
+          <Route path="/servicios" element={<NuestrosServicios />} />
+          <Route path="/contactanos" element={<Contactanos />} />
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .bg-nysa-dark { background-color: #434C59; }
+  .bg-nysa-gray { background-color: #F5F6FA; }
+  .text-nysa-dark { color: #434C59; }
+  .text-nysa-blue { color: #00AEEF; }
+  .text-nysa-yellow { color: #FFD600; }
+  .text-nysa-text { color: #E5E7EB; }
+  .bg-nysa-blue { background-color: #00AEEF; }
+  .bg-nysa-yellow { background-color: #FFD600; }
+  .bg-nysa-black { background-color: #181A1B; }
+}
+
